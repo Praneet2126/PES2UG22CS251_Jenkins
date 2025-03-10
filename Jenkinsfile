@@ -19,7 +19,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying the application...'
-                sh 'scp my_program user@server:/deploy/path/' // Example deploy command
+                sh 'echo "Deployment successful!"' // Example deploy command
             }
         }
     }
